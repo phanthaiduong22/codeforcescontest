@@ -1,0 +1,8 @@
+﻿  d.cpp
+D:\contestcodeforces\round560\d\d.cpp(29): warning C4244: 'argument': conversion from '__int64' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\contestcodeforces\round560\d\d.cpp(33): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  d.vcxproj -> D:\contestcodeforces\round560\Debug\d.exe

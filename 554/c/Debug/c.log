@@ -1,0 +1,5 @@
+﻿  c.cpp
+D:\contestcodeforces\554\c\c.cpp(185): warning C4018: '>': signed/unsigned mismatch
+D:\contestcodeforces\554\c\c.cpp(216): warning C4018: '<': signed/unsigned mismatch
+D:\contestcodeforces\554\c\c.cpp(225): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  c.vcxproj -> D:\contestcodeforces\554\Debug\c.exe

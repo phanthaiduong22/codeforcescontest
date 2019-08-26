@@ -1,0 +1,4 @@
+﻿  c.cpp
+D:\contestcodeforces\edu65\c\c.cpp(13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\contestcodeforces\edu65\c\c.cpp(17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  c.vcxproj -> D:\contestcodeforces\edu65\Debug\c.exe

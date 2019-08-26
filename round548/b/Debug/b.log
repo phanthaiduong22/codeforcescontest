@@ -1,0 +1,17 @@
+﻿  b.cpp
+d:\contestcodeforces\round548\b\b.cpp(20): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(22): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(23): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(24): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(28): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(30): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(31): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(32): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(38): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(42): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+d:\contestcodeforces\round548\b\b.cpp(42): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=__int64
+          ]
+  b.vcxproj -> D:\contestcodeforces\round548\Debug\b.exe

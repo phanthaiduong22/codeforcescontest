@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\contestcodeforces\educationround60\project2\source.cpp(73): error C2131: expression did not evaluate to a constant
+  d:\contestcodeforces\educationround60\project2\source.cpp(73): note: failure was caused by a read of a variable outside its lifetime
+  d:\contestcodeforces\educationround60\project2\source.cpp(73): note: see usage of 'l'
+d:\contestcodeforces\educationround60\project2\source.cpp(77): error C3863: array type 'std::string [l]' is not assignable

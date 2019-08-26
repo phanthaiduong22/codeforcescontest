@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\contestcodeforces\educationround60\project1\source.cpp(7): warning C4101: 'x1': unreferenced local variable
+d:\contestcodeforces\educationround60\project1\source.cpp(7): warning C4101: 'x2': unreferenced local variable
+  Project1.vcxproj -> D:\contestcodeforces\educationround60\Debug\Project1.exe

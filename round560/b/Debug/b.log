@@ -1,0 +1,3 @@
+﻿  b.cpp
+D:\contestcodeforces\round560\b\b.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  b.vcxproj -> D:\contestcodeforces\round560\Debug\b.exe

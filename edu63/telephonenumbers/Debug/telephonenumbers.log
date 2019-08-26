@@ -1,0 +1,3 @@
+﻿  telephonenumbers.cpp
+D:\contestcodeforces\edu63\telephonenumbers\telephonenumbers.cpp(22): warning C4101: 'j': unreferenced local variable
+  telephonenumbers.vcxproj -> D:\contestcodeforces\edu63\Debug\telephonenumbers.exe
