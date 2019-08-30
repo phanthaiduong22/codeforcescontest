@@ -7,57 +7,44 @@ int main()
 {
     freopen("input.inp", "r", stdin);
     freopen("output.out", "w", stdout);
-    long long n;
-    long long x;
-    vector<long long> a;
-    map<long long, long long> d, d1;
+    int n;
+    int x;
+    vector<int> a;
+    map<int, int> d;
     cin >> n;
-    long long l = -1, r = -1, r1 = n, l1 = n;
-    for (long long i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> x;
         a.push_back(x);
     }
-    for (long long i = 0; i < n; i++)
+    int ans = 99999999;
+    for (int i = 0; i < n; i++)
     {
-        d[a[i]]++;
-        if (d[a[i]] > 1)
+        bool prefixvalid = true;
+
+        for (int j = 0; j < i; j++)
         {
-            l = i;
-            break;
+            d[a[j]]++;
+            if (d[a[j]] == 2)
+            {
+                prefixvalid = false;
+                break;
+            }
         }
-    }
-    for (long long i = n - 1; i >= 0; i--)
-    {
-        if (d[a[i]] >= 1)
+        int max_j = n;
+        for (int j = n - 1; j >= i; j--)
         {
-            r = i;
-            break;
+            d[a[j]]++;
+            if (d[a[j]] == 1)
+            {
+                max_j = j;
+            }
+            else
+                break;
         }
-        d[a[i]]++;
+        if (prefixvalid)
+            ans = min(ans, max_j - i);
+            d.clear();
     }
-    for (long long i = n - 1; i >= 0; i--)
-    {
-        d1[a[i]]++;
-        if (d1[a[i]] > 1)
-        {
-            r1 = i;
-            break;
-        }
-    }
-    for (long long i = 0; i < n; i++)
-    {
-        if (d1[a[i]] >= 1)
-        {
-            l1 = i;
-            break;
-        }
-        d1[a[i]]++;
-    }
-    if (l == -1)
-        cout << 0;
-    else
-    {
-        cout << min(r - l + 1, r1 - l1 + 1);
-    }
+    cout << ans;
 }
